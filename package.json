@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "dae",
   "version": "0.1.0",
   "description": "Enviroment for long-running nodejs scripts",
@@ -7,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlosascari/dae.git"
+  },
   "keywords": ["dae", "daemon", "service"],
   "author": "Carlos Ascari Gutierrez Hermosillo",
-  "license": "ALL RIGHTS RESERVED",
+  "license": "MIT",
   "dependencies": {
     "nodegit": "^0.16.0",
     "pm2": "^2.1.6"
