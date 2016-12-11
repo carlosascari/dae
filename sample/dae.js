@@ -7,5 +7,6 @@ dae
 .then(() => {
   // Install sample daemon (auto starts)
   dae.install('Sample', path.resolve('./sample/daemon.js'));
+  dae.install('Communication', path.resolve('./sample/communication.js'));
 })
 .catch((error) => console.log(error));
